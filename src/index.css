@@ -307,12 +307,16 @@ h1 {
 
 
 @media(width <= 425px){
+  h1{
+    font-size: 100px;
+  }
+
   #shop {
-    width: 90%;
+    width: 80%;
     margin: 2rem auto;
   }
   #shop h2 {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
 
   #products li{
@@ -321,14 +325,11 @@ h1 {
     align-items: center;
   }
   .product {
-    width: 75%;
+    width: 50%;
   }
 }
 
 @media(width <= 320px){
-  h1{
-    font-size: 1.2rem;
-  }
 
   #main-header button {
     padding: 0.2rem 1rem;
