@@ -316,13 +316,16 @@ h1 {
 
 
 
-@media (width <= 375px) {
+@media (width <= 420px) {
   h1 {
-    font-size: 1.0rem;
+    font-size: 0.90rem;
+  }
+  #main-title img {
+    width: 2.5rem;
   }
 
   #main-header button {
-    padding: 0.2rem 1rem;
+    padding: 0.1rem 0.60rem;
     font-size: 1rem;
   }
 }
